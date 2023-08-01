@@ -176,7 +176,7 @@ void ServerManager_::setup()
         mws.addOptionBox("Time");
         mws.addOption("NTP Server", NTP_SERVER);
         mws.addOption("Timezone", NTP_TZ);
-        mws.addHTML("<p>Find your timezone at <a href='https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv' target='_blank' rel='noopener noreferrer'>posix_tz_db</a>.</p>", "tz_link");
+        //mws.addHTML("<p>Find your timezone at <a href='https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv' target='_blank' rel='noopener noreferrer'>posix_tz_db</a>.</p>", "tz_link");
         /* mws.addOptionBox("Icons");
         mws.addHTML(custom_html, "icon_html");
         mws.addCSS(custom_css);
